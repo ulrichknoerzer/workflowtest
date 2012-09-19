@@ -7,7 +7,7 @@ class Foo : public QObject
 {
     Q_OBJECT
     Q_PROPERTY( QString myString READ myString WRITE setMyString )
-
+// another comment
 public:
     Foo();
     ~Foo();
