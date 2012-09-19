@@ -16,7 +16,7 @@ QString Foo::myString()
 {
     return m_mystring;
 }
-
+// added a stupid comment
 void Foo::setMyString( const QString &str )
 {
     m_mystring = str;
