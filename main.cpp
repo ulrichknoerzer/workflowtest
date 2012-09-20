@@ -24,6 +24,6 @@ int main( int argc, char **argv )
 
     engine->evaluate( "print( foo.myString );"  );
 
-
+//Comment 3
     return 0;
 }
