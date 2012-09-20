@@ -10,7 +10,7 @@ int main( int argc, char **argv )
     Foo *foo = new Foo();
 
     QScriptValue objectValue = engine->newQObject( foo );
-    engine->globalObject().setProperty("foo", objectValue);
+    engine->globalObject().setProperty("f00", objectValue);
 
     engine->evaluate( ""
 		      "print('Properties...');\n"
@@ -18,7 +18,7 @@ int main( int argc, char **argv )
 
     engine->evaluate( "foo.notASlot();"  );
 		      
-    engine->evaluate( "foo.myString = 'Hello World';\n"  );
+    engine->evaluate( "foo.myString = 'Hello World!';\n"  );
 
     engine->evaluate( "foo.reverseString();"  );
 
