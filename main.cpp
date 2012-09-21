@@ -4,6 +4,7 @@
 
 int main( int argc, char **argv )
 {
+    //test3
     QScriptEngine *engine = new QScriptEngine();
     engine->evaluate( "print( 'Hello World' );" );
 
